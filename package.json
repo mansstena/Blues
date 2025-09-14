@@ -1,10 +1,14 @@
-
 {
   "name": "br-backend",
   "version": "0.2.0",
   "main": "server.js",
   "type": "module",
-  "scripts": { "start": "node server.js" },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "cors": "2.8.5",
     "dotenv": "16.4.5",
